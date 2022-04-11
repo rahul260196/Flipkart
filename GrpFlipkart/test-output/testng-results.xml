@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launchpage is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-11T13:03:25 IST" name="Default suite" finished-at="2022-04-11T13:03:50 IST" duration-ms="25027">
+    <groups>
+    </groups>
+    <test started-at="2022-04-11T13:03:25 IST" name="Default test" finished-at="2022-04-11T13:03:50 IST" duration-ms="25027">
+      <class name="Electronics.TC_Home_001">
+        <test-method is-config="true" signature="openTheBrowser(java.lang.String)[pri:0, instance:Electronics.TC_Home_001@306f16f3]" started-at="2022-04-11T13:03:25 IST" name="openTheBrowser" finished-at="2022-04-11T13:03:33 IST" duration-ms="8542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:Electronics.TC_Home_001@306f16f3]" started-at="2022-04-11T13:03:33 IST" name="loginToApplication" finished-at="2022-04-11T13:03:47 IST" duration-ms="13521" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launchpage is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="AddToCart()[pri:0, instance:Electronics.TC_Home_001@306f16f3]" started-at="2022-04-11T13:03:47 IST" name="AddToCart" finished-at="2022-04-11T13:03:49 IST" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:Electronics.TC_Home_001@306f16f3]" started-at="2022-04-11T13:03:49 IST" name="closeTheBrowser" finished-at="2022-04-11T13:03:50 IST" duration-ms="896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- Electronics.TC_Home_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
